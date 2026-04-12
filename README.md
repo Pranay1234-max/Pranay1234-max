@@ -1,5 +1,5 @@
 # 💫 About Me:
-## 🚀 About Me<br><br>🔭 I’m currently working on<br><br>* Full-stack project **🧠 ArogyaGPT – AI-powered healthcare assistant (React + Spring Boot + PostgreSQL)**<br><br>🤝 I’m looking to collaborate on<br><br>* Java backend projects<br>* Full-stack web applications<br><br>🫶 I’m looking for help with<br><br>* System design<br>* Advanced backend architecture<br><br>🌱 I’m currently learning<br><br>* Spring Security<br>* Microservices<br>* Docker & Cloud Deployment<br><br>💬 Ask me about<br><br>* Java, Spring Boot<br>* REST APIs<br>* React basics<br><br>⚡ Fun fact<br><br>* I love building real-world projects more than just theory 🚀<br>
+I am a passionate full-stack developer currently working on ArogyaGPT, an AI-powered healthcare assistant built using React, Spring Boot, and PostgreSQL. I enjoy developing scalable web applications and have a strong interest in backend development with Java and Spring Boot. I am actively looking to collaborate on Java backend and full-stack projects while continuously improving my skills in system design and advanced backend architecture. Currently, I am learning Spring Security, microservices, and Docker-based cloud deployment. I am always open to discussions around Java, REST APIs, and web development, and I strongly believe in building real-world projects to gain practical experience.
 
 
 ## 🌐 Socials:
