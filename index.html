@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pranay Dighe — Full Stack Java Developer</title>
+  <meta name="description" content="Pranay Dighe is a full-stack developer specializing in high-performance microservices, robust cloud architectures, and seamless user experiences." />
+
+  <!-- Fonts -->
+  <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@800,700,400&f[]=satoshi@500,400,300&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <!-- Icons -->
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ======================================
+       NAVIGATION
+  ======================================= -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo" id="nav-logo" aria-label="Go to top">
+        <div class="logo-icon">
+          <iconify-icon icon="logos:java"></iconify-icon>
+        </div>
+        <span class="logo-text">PranayDighe<span class="accent">.</span></span>
+      </a>
+
+      <div class="nav-links">
+        <a href="#home"     id="nav-home-link"     class="nav-link">Home</a>
+        <a href="#about"    id="nav-about-link"    class="nav-link">About</a>
+        <a href="#projects" id="nav-projects-link" class="nav-link">Projects</a>
+        <a href="#skills"   id="nav-skills-link"   class="nav-link">Skills</a>
+        <a href="#contact"  id="nav-contact-link"  class="nav-link nav-link--cta">Contact Me</a>
+      </div>
+
+      <!-- Mobile hamburger -->
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Mobile drawer -->
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="#home"     class="mobile-link" id="mob-home">Home</a>
+      <a href="#about"    class="mobile-link" id="mob-about">About</a>
+      <a href="#projects" class="mobile-link" id="mob-projects">Projects</a>
+      <a href="#skills"   class="mobile-link" id="mob-skills">Skills</a>
+      <a href="#contact"  class="mobile-link" id="mob-contact">Contact Me</a>
+    </div>
+  </nav>
+
+  <!-- ======================================
+       HERO
+  ======================================= -->
+  <header id="home" class="hero">
+    <!-- Ambient blobs -->
+    <div class="blob blob--right" aria-hidden="true"></div>
+    <div class="blob blob--left"  aria-hidden="true"></div>
+
+    <div class="container hero__inner">
+      <!-- Left copy -->
+      <div class="hero__copy animate-fade-up">
+        <span class="badge">Full Stack Java Architect</span>
+        <h1 class="hero__headline">
+          Crafting Scalable
+          <span class="accent-word">Backend Systems</span>
+        </h1>
+        <p class="hero__sub">
+          I specialize in building high-performance microservices, robust cloud architectures,
+          and seamless user experiences using the Java ecosystem and modern frontend frameworks.
+        </p>
+        <div class="hero__cta-group">
+          <a href="#projects" id="hero-cta-primary" class="btn btn--primary">
+            View My Work <iconify-icon icon="lucide:arrow-right"></iconify-icon>
+          </a>
+          <a href="Pranay_Dighe_Developer.pdf" download id="hero-cta-secondary" class="btn btn--ghost">Download CV</a>
+        </div>
+      </div>
+
+      <!-- Right: Profile photo -->
+      <!-- ✅ TO ADD YOUR PHOTO: place your image file (e.g. photo.jpg) in the
+           same folder as index.html, then update the src below. -->
+      <div class="hero__photo-wrap animate-fade-up delay-1">
+
+        <!-- Spinning ring accent -->
+        <div class="photo-ring" aria-hidden="true"></div>
+
+        <!-- Orange glow blob behind photo -->
+        <div class="photo-glow" aria-hidden="true"></div>
+
+        <!-- ▼ REPLACE src with your actual photo filename ▼ -->
+        <div class="photo-frame">
+          <img
+            src="photo.jpeg"
+            alt="Pranay Dighe — Full Stack Java Developer"
+            class="profile-photo"
+            id="profile-photo"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
+          />
+          <!-- Fallback avatar shown if photo.jpg doesn't exist yet -->
+          <div class="photo-fallback" style="display:none;">
+            <iconify-icon icon="mdi:account" class="photo-fallback__icon"></iconify-icon>
+            <span class="photo-fallback__label">Add photo.jpg here</span>
+          </div>
+        </div>
+
+        <!-- Floating badge: "Available for work" -->
+        <div class="photo-badge">
+          <span class="photo-badge__dot"></span>
+          Available for work
+        </div>
+
+        <!-- Floating mini code tag -->
+        <div class="photo-tag">
+          <iconify-icon icon="logos:java" style="font-size:1rem;"></iconify-icon>
+          <span class="font-mono">Java Dev</span>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- ======================================
+       ABOUT
+  ======================================= -->
+  <section id="about" class="section section--alt">
+    <div class="container about__inner">
+      <!-- Left: copy + stats -->
+      <div class="about__copy animate-on-scroll">
+        <h2 class="section__heading">
+          Bridging the Gap Between
+          <span class="accent-word">Concept &amp; Code</span>
+        </h2>
+        <div class="about__body">
+          <p>I am a full-stack developer with a passion for web and software development. With 6 months of hands-on experience, I have built multiple projects and continuously expand my skill set to craft efficient digital solutions.</p>
+          <p>My philosophy is centered around clean code, test-driven development, and high-availability architecture. I believe that a great backend is the backbone of any successful digital product.</p>
+        </div>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-card__num">6</div>
+            <div class="stat-card__label">Months Experience</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-card__num">10+</div>
+            <div class="stat-card__label">Projects Completed</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: skills -->
+      <div id="skills" class="skills-column animate-on-scroll delay-1">
+        <div class="skill-group">
+          <h3 class="skill-group__title">
+            <iconify-icon icon="mdi:cube-outline" class="skill-group__icon"></iconify-icon>
+            Backend Mastery
+          </h3>
+          <div class="pill-row">
+            <span class="pill">Java 17/21</span>
+            <span class="pill">Spring Boot</span>
+            <span class="pill">Hibernate / JPA</span>
+            <span class="pill">JWT Authentication</span>
+            <span class="pill">System Design</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group__title">
+            <iconify-icon icon="mdi:web" class="skill-group__icon"></iconify-icon>
+            Frontend Skills
+          </h3>
+          <div class="pill-row">
+            <span class="pill">React.js</span>
+            <span class="pill">Tailwind CSS</span>
+            <span class="pill">HTML</span>
+            <span class="pill">CSS</span>
+            <span class="pill">Bootstrap</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group__title">
+            <iconify-icon icon="mdi:database" class="skill-group__icon"></iconify-icon>
+            DevOps &amp; Database
+          </h3>
+          <div class="pill-row">
+            <span class="pill">PostgreSQL</span>
+            <span class="pill">Redis</span>
+            <span class="pill">MySQL</span>
+            <span class="pill">Neon</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================
+       PROJECTS
+  ======================================= -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="projects__header animate-on-scroll">
+        <div>
+          <h2 class="section__heading">Featured <span class="accent-word">Projects</span></h2>
+          <p class="projects__sub">A collection of technical solutions I've architected and built from the ground up, focusing on performance and scalability.</p>
+        </div>
+        <a href="#" id="view-all-projects" class="view-all-link">
+          View All Works <iconify-icon icon="lucide:arrow-right"></iconify-icon>
+        </a>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Card 1 -->
+        <article class="project-card animate-on-scroll delay-1">
+          <div class="project-card__inner">
+            <div class="project-card__corner" aria-hidden="true"></div>
+            <img src="Eggs.png" alt="Eggcellent Project Screenshot" style="width: 100%; height: auto; max-height: 450px; object-fit: cover; border-radius: 12px; margin-bottom: 1.5rem; border: 1px solid var(--border);" />
+            <h3 class="project-card__title">Eggcellent – D2C Marketplace</h3>
+            <p class="project-card__desc">A Direct-to-Consumer (D2C) marketplace that enables farmers to sell eggs directly to customers without intermediaries. Focuses on reducing costs, improving transparency, and delivering a seamless online shopping experience.</p>
+            
+            <div style="margin: 1.5rem 0; color: var(--text-muted); font-size: 0.95rem; line-height: 1.6;">
+              <strong style="color: var(--text-main);">Key Features:</strong>
+              <ul style="margin-top: 0.5rem; margin-bottom: 1rem; padding-left: 1.2rem;">
+                <li>Real-time egg inventory management & category-based filtering</li>
+                <li>Secure user authentication, smooth checkout, and order handling</li>
+              </ul>
+              <strong style="color: var(--text-main);">My Role:</strong>
+              <ul style="margin-top: 0.5rem; padding-left: 1.2rem;">
+                <li>Developed backend services using Spring Boot & REST APIs</li>
+                <li>Built frontend components using React</li>
+                <li>Designed and managed PostgreSQL database</li>
+              </ul>
+            </div>
+
+            <div class="tag-row">
+              <span class="tag">React.js</span>
+              <span class="tag">Spring Boot</span>
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">REST API</span>
+              <span class="tag">Vercel</span>
+            </div>
+            <br>
+            <a href="https://eggcellent-project.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-card__link">
+              View Live Project <iconify-icon icon="lucide:external-link"></iconify-icon>
+            </a>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="project-card animate-on-scroll delay-2">
+          <div class="project-card__inner">
+            <div class="project-card__corner" aria-hidden="true"></div>
+            <img src="Arogya.png" alt="ArogyaGPT Project Screenshot" style="width: 100%; height: auto; max-height: 450px; object-fit: cover; border-radius: 12px; margin-bottom: 1.5rem; border: 1px solid var(--border);" />
+            <h3 class="project-card__title">ArogyaGPT – AI Healthcare Platform</h3>
+            <p class="project-card__desc">An AI-powered healthcare assistant providing instant symptom analysis, safe medical guidance, and real-time location of nearby medical facilities.</p>
+            
+            <div style="margin: 1.5rem 0; color: var(--text-muted); font-size: 0.95rem; line-height: 1.6;">
+              <strong style="color: var(--text-main);">Key Features:</strong>
+              <ul style="margin-top: 0.5rem; margin-bottom: 1rem; padding-left: 1.2rem;">
+                <li>AI-based symptom analysis & intelligent triage system</li>
+                <li>Real-time location of nearby hospitals and clinics</li>
+              </ul>
+              <strong style="color: var(--text-main);">My Role:</strong>
+              <ul style="margin-top: 0.5rem; padding-left: 1.2rem;">
+                <li>Developed full-stack application using React and Spring Boot</li>
+                <li>Designed AI-based symptom analysis & REST APIs</li>
+                <li>Integrated geolocation services for hospital mapping</li>
+              </ul>
+            </div>
+
+            <div class="tag-row">
+              <span class="tag">React.js</span>
+              <span class="tag">Spring Boot</span>
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">AI / ML</span>
+              <span class="tag">Geolocation</span>
+            </div>
+            <br>
+            <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
+              <em>🏆 Presented research paper at IEEE ICSFT 2026, Bangalore</em>
+            </p>
+            <a href="https://github.com/Pranay1234-max/ArogyaGPT" target="_blank" rel="noopener noreferrer" class="project-card__link">
+              View Project <iconify-icon icon="lucide:external-link"></iconify-icon>
+            </a>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="project-card animate-on-scroll delay-3">
+          <div class="project-card__inner">
+            <div class="project-card__corner" aria-hidden="true"></div>
+            <div class="project-card__icon-wrap">
+              <iconify-icon icon="mdi:car" class="project-card__icon"></iconify-icon>
+            </div>
+            <h3 class="project-card__title">Smart Parking System</h3>
+            <p class="project-card__desc">A web-based reservation platform allowing users to book parking slots in real time through an intuitive, movie ticket-style booking interface.</p>
+            
+            <div style="margin: 1.5rem 0; color: var(--text-muted); font-size: 0.95rem; line-height: 1.6;">
+              <strong style="color: var(--text-main);">Key Features:</strong>
+              <ul style="margin-top: 0.5rem; margin-bottom: 1rem; padding-left: 1.2rem;">
+                <li>Real-time slot availability & ticket-style selection</li>
+                <li>Secure booking system with automated digital tickets</li>
+              </ul>
+              <strong style="color: var(--text-main);">My Role:</strong>
+              <ul style="margin-top: 0.5rem; padding-left: 1.2rem;">
+                <li>Developed full-stack application using React and Spring Boot</li>
+                <li>Designed interactive UI for slot selection</li>
+                <li>Implemented validation logic to prevent double bookings</li>
+              </ul>
+            </div>
+
+            <div class="tag-row">
+              <span class="tag">React.js</span>
+              <span class="tag">Spring Boot</span>
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">REST API</span>
+            </div>
+            <br>
+            <a href="#" class="project-card__link">
+              View Project <iconify-icon icon="lucide:external-link"></iconify-icon>
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================
+       CONTACT
+  ======================================= -->
+  <section id="contact" class="section section--alt">
+    <div class="container contact__inner">
+      <!-- Left info -->
+      <div class="contact__info animate-on-scroll">
+        <h2 class="section__heading">
+          Let's Build Something
+          <span class="accent-word">Extraordinary</span>
+        </h2>
+        <p class="contact__sub">
+          Whether you have a question about backend architecture or want to discuss a new project,
+          my inbox is always open.
+        </p>
+        <div class="contact__links">
+          <div class="contact__link-row">
+            <div class="contact__link-icon">
+              <iconify-icon icon="lucide:mail"></iconify-icon>
+            </div>
+            <div>
+              <div class="contact__link-label">Email Me</div>
+              <a href="mailto:pranaydighe70@gmail.com" class="contact__link-value hover-link">pranaydighe70@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact__link-row">
+            <div class="contact__link-icon">
+              <iconify-icon icon="lucide:github"></iconify-icon>
+            </div>
+            <div>
+              <div class="contact__link-label">Follow My Code</div>
+              <a href="https://github.com/Pranay1234-max" target="_blank" rel="noopener" class="contact__link-value hover-link">github.com/Pranay1234-max</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right form -->
+      <div class="contact__form-wrap animate-on-scroll delay-1">
+        <form id="contact-form" class="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="cf-name">Full Name</label>
+              <input id="cf-name" type="text" placeholder="XYZ" autocomplete="name" />
+            </div>
+            <div class="form-field">
+              <label for="cf-email">Email Address</label>
+              <input id="cf-email" type="email" placeholder="xyz@example.com" autocomplete="email" />
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="cf-subject">Subject</label>
+            <input id="cf-subject" type="text" placeholder="Project Inquiry" />
+          </div>
+          <div class="form-field">
+            <label for="cf-message">Message</label>
+            <textarea id="cf-message" rows="5" placeholder="Tell me about your project..."></textarea>
+          </div>
+          <button type="submit" id="contact-submit" class="btn btn--primary btn--full">
+            Send Message <iconify-icon icon="lucide:send"></iconify-icon>
+          </button>
+          <p id="form-status" class="form-status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================
+       FOOTER
+  ======================================= -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <div class="footer__logo-icon">
+          <iconify-icon icon="logos:java"></iconify-icon>
+        </div>
+        <span class="footer__logo-text">PD<span class="accent">.</span></span>
+      </div>
+      <p class="footer__copy">© 2024 Pranay Dighe. Built with Java &amp; Heart.</p>
+      <div class="footer__socials">
+        <a href="https://www.linkedin.com/in/dighepranay-developer" target="_blank" rel="noopener noreferrer" id="footer-linkedin" class="social-link" aria-label="LinkedIn">
+          <iconify-icon icon="mdi:linkedin"></iconify-icon>
+        </a>
+        <a href="#" id="footer-twitter" class="social-link" aria-label="Twitter">
+          <iconify-icon icon="mdi:twitter"></iconify-icon>
+        </a>
+        <a href="https://github.com/Pranay1234-max" target="_blank" rel="noopener" id="footer-github" class="social-link" aria-label="GitHub">
+          <iconify-icon icon="mdi:github"></iconify-icon>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script>
+    (function(){
+      emailjs.init("IUHaiicq_fEVDskvM");
+    })();
+  </script>
+  <script src="main.js"></script>
+</body>
+</html>
